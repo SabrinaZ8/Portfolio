@@ -111,6 +111,7 @@ body {
     min-height: 88vh;
     margin: 0 30px;
     margin-top: 13vh;
+    padding-bottom: 7%;
 }
 h1, ul {
     font-family: 'Courier New', Courier, monospace;
@@ -162,7 +163,6 @@ h1 {
     display: flex;
     align-items: center;
     padding: var(--margin-calc) ;
-    padding-top: 5%;
     
 }
 .border {
