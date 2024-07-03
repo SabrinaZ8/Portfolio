@@ -360,5 +360,8 @@ li a:hover {
     .icons-habilidades div {
         margin: 10px;
     }
+    footer div {
+        margin-top: 10px;
+    }
 }
 
