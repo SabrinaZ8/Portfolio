@@ -187,7 +187,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 6% 0;
+    padding: 75px 0;
 }
 .lista-projetos {
     display: grid;
@@ -213,10 +213,10 @@ h1 {
 /********habilidades*********/
 #habilidades {
     background-color: #2b2f4196;
-    padding: 3.5% 0;
     flex-direction: column;
     display: flex;
     align-items: center;
+    padding: 75px 0;
 }
 .icons-habilidades {
     display: flex;
