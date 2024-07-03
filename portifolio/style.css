@@ -345,7 +345,7 @@ li a:hover {
         margin: 15px 0;
     }
     footer {
-        height: 40vh;
+        height: 50vh;
     }
     .icons img {
         margin: 0 20px;
@@ -360,8 +360,6 @@ li a:hover {
     .icons-habilidades div {
         margin: 10px;
     }
-    footer div {
-        margin-top: 10px;
-    }
+
 }
 
