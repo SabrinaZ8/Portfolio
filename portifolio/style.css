@@ -161,7 +161,9 @@ h1 {
     min-height: 70vh;
     display: flex;
     align-items: center;
-    padding: var(--margin-calc);
+    padding: var(--margin-calc) ;
+    padding-top: 5%;
+    
 }
 .border {
     border: 2px solid #ffffff;
@@ -315,8 +317,8 @@ li a:hover {
 }
 @media screen and (max-width: 500px){
     .foto img {
-        width: 240px;
-        height: 240px;
+        width: 220px;
+        height: 220px;
     }
     .lista-projetos {
         grid-template-columns: 1fr;
