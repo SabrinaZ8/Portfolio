@@ -108,7 +108,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 88vh;
+    min-height: 88vh;
     margin: 0 30px;
     margin-top: 13vh;
 }
