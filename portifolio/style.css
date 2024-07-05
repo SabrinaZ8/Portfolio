@@ -294,6 +294,11 @@ li a:hover {
 .svg-icon-div:nth-child(5) svg:hover {color: #F05032}
 .svg-icon-div:nth-child(6) svg:hover {color: #181717}
 
+.copy {
+    text-align: center;
+    color: #636161;
+    font-size: 10px;
+}
 
 @media screen and (max-width: 1220px) {
     .foto img {
@@ -345,13 +350,10 @@ li a:hover {
         flex-direction: column;
     }
     #contato {
-        flex-direction: column-reverse;
+        height: 60vh;
     }
     .ul-footer li{
         margin: 15px 0;
-    }
-    footer {
-        height: 60vh;
     }
     .icons img {
         margin: 0 20px;
