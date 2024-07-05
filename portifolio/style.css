@@ -202,6 +202,10 @@ h1 {
     /*height: 200px;*/
     max-width: 90%;
 }
+.div-img-p h3 {
+    color: var(--colorcyan);
+    margin-top: 10px;
+}
 .projetos-div {
     width: max(25vw, 190px);
     font-size: clamp(12px, 1vw, 1.6rem);
