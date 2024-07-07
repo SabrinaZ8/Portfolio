@@ -4,8 +4,8 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 
 ## Índice
 
-- [Preview](#preview)
-- [Descrição do Portfólio](#📌|-descrição-do-portfólio)
+- [Preview](#-preview)
+- [Descrição do Portfólio](#descrição-do-portfólio)
   - [Estética Visual](#1-estética-visual)
   - [Responsividade](#2-responsividade)
   - [Usabilidade](#3-usabilidade)
