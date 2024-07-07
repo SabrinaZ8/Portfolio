@@ -4,10 +4,10 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 
 ## Índice
 
-- [Preview](#Preview)
-- [Descrição do Portfólio](#descrição-do-Portfólio)
+- [Preview](#preview)
+- [Descrição do Portfólio](#descrição-do-Portfolio)
 - [Projetos](#projetos)
-- [Links](#Links)
+- [Links](#links)
 - [Contato](#contato)
 
 ## 🔎| Preview
