@@ -5,7 +5,7 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 ## Índice
 
 - [Preview](#preview)
-- [Descrição do Portfólio](#descricao-do-Portfolio)
+- [Descrição do Portfólio](#descrição-do-portfolio)
 - [Projetos](#projetos)
 - [Links](#links)
 - [Contato](#contato)
