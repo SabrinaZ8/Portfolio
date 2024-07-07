@@ -18,7 +18,7 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 
 ### 1. Estética Visual
 
-Optei por um fundo escuro com cores vibrantes e chamativas para o design. A ideia inicial foi refletir um pouco da minha personalidade: as cores escuras transmitem modernidade e seriedade, 
+optei por um fundo escuro com cores vibrantes e chamativas para o design. A ideia inicial foi refletir um pouco da minha personalidade: as cores escuras transmitem modernidade e seriedade, 
 enquanto os tons neon de ciano, rosa e verde-limão destacam minha criatividade e energia, além de trazer um aspecto futurista ao meu projeto.
 
 ### 2. Responsividade 
