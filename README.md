@@ -27,7 +27,7 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 ### 3. Usabilidade
 
-- interfcae intuitiva
+- interface intuitiva
 - Layout simples
 - Links para recursos adicionais e contato.
 - Foco em um design limpo e funcional.
@@ -42,7 +42,7 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 ## 🗂️| Projetos 
 
-- [Página de gereciamento](https://github.com/BynnZ8/manage-landing-page-master)
+- [Página de gerenciamento](https://github.com/BynnZ8/manage-landing-page-master)
 - [Calculadora](https://github.com/BynnZ8/calculadora-app)
 - [Chat App](https://github.com/BynnZ8/Chat-app-LandingPage)
 - [Página de receita](https://github.com/BynnZ8/LandingPage_Challenger)
