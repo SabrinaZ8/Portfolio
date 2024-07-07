@@ -6,6 +6,10 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 
 - [Preview](#preview)
 - [Descrição do Portfólio](#descrição-do-portfolio)
+  - [Estética Visual](#estetica-visual)
+  - [Responsividade](#responsividade)
+  - [Usabilidade](#usabilidade)
+  - [Ferramentas e linguagens utilizadas](#ferramentas)
 - [Projetos](#projetos)
 - [Links](#links)
 - [Contato](#contato)
