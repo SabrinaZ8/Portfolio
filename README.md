@@ -8,7 +8,7 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 - [Descrição do Portfólio](#descrição-do-Portfólio)
 - [Projetos](#projetos)
 - [Links](#Links)
-- [contato](#contato)
+- [Contato](#contato)
 
 ## 🔎| Preview
 
@@ -18,7 +18,7 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 
 ### 1. Estética Visual
 
-optei por um fundo escuro com cores vibrantes e chamativas para o design. A ideia inicial foi refletir um pouco da minha personalidade: as cores escuras transmitem modernidade e seriedade, 
+Optei por um fundo escuro com cores vibrantes e chamativas para o design. A ideia inicial foi refletir um pouco da minha personalidade: as cores escuras transmitem modernidade e seriedade, 
 enquanto os tons neon de ciano, rosa e verde-limão destacam minha criatividade e energia, além de trazer um aspecto futurista ao meu projeto.
 
 ### 2. Responsividade 
@@ -27,12 +27,12 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 ### 3. Usabilidade
 
-- interface intuitiva
+- Interface intuitiva
 - Layout simples
 - Links para recursos adicionais e contato.
 - Foco em um design limpo e funcional.
 
- ### 🛠️| Ferramentas e linguagens utilizadas
+ ### 4. Ferramentas e linguagens utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -50,7 +50,7 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 ## 🔗| Links
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://portifolio-six-tawny-38.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-9DFFF7?style=for-the-badge&logo=todoist&logoColor=black)](https://portifolio-six-tawny-38.vercel.app/)
 
 ## 📭| Contato
 
