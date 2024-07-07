@@ -5,14 +5,14 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 ## Índice
 
 - [Preview](#-preview)
-- [Descrição do Portfólio](#descrição-do-portfólio)
+- [Descrição do Portfólio](#-descrição-do-portfólio)
   - [Estética Visual](#1-estética-visual)
   - [Responsividade](#2-responsividade)
   - [Usabilidade](#3-usabilidade)
   - [Ferramentas e linguagens utilizadas](#4-ferramentas-e-linguagens-utilizadas)
-- [Projetos](#projetos)
-- [Links](#links)
-- [Contato](#contato)
+- [Projetos](#-projetos)
+- [Links](#-links)
+- [Contato](#-contato)
 
 ## 🔎| Preview
 
