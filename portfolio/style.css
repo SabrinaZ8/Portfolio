@@ -18,10 +18,14 @@
 }
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url('/portfolio/src/background-dark.jpg');
+    background: url('/portfolio/src/background-dark.webp') no-repeat;
+    background-size: cover;
     color: #ffffff;
     font-size: 1.6rem;
     line-height: 1.5;
+}
+main {
+   
 }
 #home {
     position: absolute; 
