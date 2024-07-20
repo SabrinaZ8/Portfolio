@@ -25,9 +25,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
 }
-main {
-   
-}
+
 #home {
     position: absolute; 
     top: 0;
@@ -167,11 +165,10 @@ h1 {
 /**********Sobre Mimm*********/
 .sobre-mim {
     background-color: var(--background-dark-blue);
-    min-height: 70vh;
+    min-height: 650px;
     display: flex;
     align-items: center;
     padding: var(--margin-calc) ;
-    
 }
 .border {
     border: 2px solid #ffffff;
@@ -215,6 +212,7 @@ h1 {
 .projetos-div {
     width: max(25vw, 190px);
     font-size: clamp(12px, 1vw, 1.6rem);
+    max-width: 450px;
 }
 .btns-links-projects {
     box-shadow: 3px 3px 0px 0px var(--colorgreen);
