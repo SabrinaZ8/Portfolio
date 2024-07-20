@@ -71,6 +71,7 @@ main {
 }
 .icon-menu img, .btn-fechar img{
     width: 24px;
+    height: 24px;
 }
 .btn-fechar {
     display: none;
@@ -203,7 +204,7 @@ h1 {
     justify-items: center;
 }
 .projetos-div img {
-    /*height: 200px;*/
+    height: 90%;
     max-width: 90%;
 }
 .div-img-p h3 {
