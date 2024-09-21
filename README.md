@@ -16,7 +16,7 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 
 ## 🔎| Preview
 
-![Preview](/portfolio/src/capturaPortifolio.webp)
+![Preview](/portfolio/src/capturaPortfolio.webp)
 
 ## 📌| Descrição do Portfólio
 
