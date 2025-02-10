@@ -21,7 +21,7 @@ body {
     background: url('/portfolio/src/background-dark.webp') no-repeat;
     background-color: #000000;
     background-size: cover;
-    color: #ffffff;
+    color: #ebe9e9e8;
     font-size: 1.8rem;
     line-height: 1.5;
 }
