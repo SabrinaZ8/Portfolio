@@ -18,8 +18,8 @@
 }
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
     background: url('/portfolio/src/background-dark.webp') no-repeat;
+    background-color: #000000;
     background-size: cover;
     color: #ffffff;
     font-size: 1.6rem;
