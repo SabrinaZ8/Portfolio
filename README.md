@@ -54,7 +54,7 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 ## 🔗| Links
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-9DFFF7?style=for-the-badge&logo=todoist&logoColor=black)](https://portifolio-six-tawny-38.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-9DFFF7?style=for-the-badge&logo=todoist&logoColor=black)](https://portfolio-sabrina-souza.vercel.app/)
 
 ## 📭| Contato
 
