@@ -201,9 +201,12 @@ h1 {
     gap: 50px;
     justify-items: center;
 }
-.projetos-div img {
+.projetos-div img, .projetos-div video {
     height: 90%;
     max-width: 90%;
+}
+video {
+    object-fit: cover;
 }
 .div-img-p h3 {
     color: var(--colorcyan);
@@ -343,7 +346,7 @@ li a:hover {
     .projetos-div {
         width: 90%;
     } 
-    .projetos-div img {
+    .projetos-div img, .projetos-div video {
         width: 190px;
         height: 106px;
         margin: 0 15px 15px 0;
