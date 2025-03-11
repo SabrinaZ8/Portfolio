@@ -1,5 +1,3 @@
-
-
 :root {
     --background-dark-gray: #181717;
     --background-dark-blue: #0c0f0f;
@@ -16,6 +14,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     background: url('/portfolio/src/background-dark.webp') no-repeat;
