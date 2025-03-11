@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://portfolio-sabrina-souza.vercel.app/sitemap.xml
