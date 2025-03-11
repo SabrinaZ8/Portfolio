@@ -139,10 +139,10 @@ h1 {
     color: var(--font-white);
 }
 .btns {
-    padding: 8px 10px;
+    padding: 11px 13px;
     border-radius: 5px;
     font-weight: 600;
-    margin: 30px 15px 0 0;
+    margin: 30px 20px 0 0;
     background-color: #ffffff;
     text-decoration: none;
     font-size: 14px;
@@ -183,7 +183,7 @@ h1 {
     width: 150px;
 }
 .content-sobremim p {
-    font-size: clamp(12px, 1vw, 1.8rem);
+    font-size: clamp(14px, 1vw, 1.8rem);
     -webkit-hyphens: auto;
     hyphens: auto;
 }
@@ -217,7 +217,7 @@ video {
 }
 .projetos-div {
     width: max(25vw, 190px);
-    font-size: clamp(12px, 1vw, 1.6rem);
+    font-size: clamp(14px, 1vw, 1.6rem);
     max-width: 450px;
 }
 .btns-links-projects {
@@ -372,7 +372,7 @@ li a:hover {
     }
     .icons-habilidades svg {
         width: 40px;
-        margin: 15px 15px;;
+        margin: 0px 15px;;
     }
     .icons-habilidades div span {
     margin: 0;
