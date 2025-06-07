@@ -207,6 +207,7 @@ h1 {
 .projetos-div img, .projetos-div video {
     height: 90%;
     max-width: 90%;
+    object-fit: cover;
 }
 video {
     object-fit: cover;
