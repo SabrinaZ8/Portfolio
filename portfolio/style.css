@@ -240,9 +240,10 @@ video {
     flex-wrap: wrap;
     justify-content: center;
 }
-.icons-habilidades svg {
+.icons-habilidades img {
     color: rgb(255, 255, 255);
-   
+    width: 72px;
+    height: 72px;
 }
 .icons-habilidades div {
     margin: 30px 30px;
@@ -256,6 +257,7 @@ video {
     text-align: center;
     color: var(--font-white);
 }
+
 /******footer************/
 footer {
     display: flex;
@@ -291,20 +293,6 @@ li a:hover {
 .btn-inicio:hover {
     background-color: #ffddf5;
 }
-
-.sql-div svg:nth-child(2) {
-    position: relative;
-    opacity: 0;
-}
-.sql-div svg:nth-child(1) {position: absolute;}
-.sql-div:hover svg:nth-child(2) {opacity: 1;}
-.sql-div:hover svg:nth-child(1) {opacity: 0;}
-
-.svg-icon-div:nth-child(1) svg:hover {color: #E34F26;}
-.svg-icon-div:nth-child(2) svg:hover {color: #1572B6}
-.svg-icon-div:nth-child(3) svg:hover {color: #F7DF1E}
-.svg-icon-div:nth-child(5) svg:hover {color: #F05032}
-.svg-icon-div:nth-child(6) svg:hover {color: #181717}
 
 .copy {
     text-align: center;
