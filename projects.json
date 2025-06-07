@@ -4,7 +4,7 @@
     "descricao": "Este projeto foi desenvolvido durante meu período de estágio na Compass UOL, utilizando React, TypeScript e Tailwind CSS para criar uma interface moderna e responsiva. A aplicação permite a exibição detalhada dos produtos, além de oferecer filtros por categoria e classificação por preço ou nome. O Redux gerencia o estado global. Para autenticação de usuário, foi implementado o Clerk. Além disso, a integração com ViaCep facilita a busca de endereços, e o JSON-Server é utilizado para simular um back-end durante o desenvolvimento.",
     "media": {
       "tipo": "video",
-      "src": "/portfolio/src/video-furniro.webm"
+      "src": "/portfolio/assets/file-projects/video-furniro.webm"
     },
     "demo": "https://furniture-project-two.vercel.app/",
     "github": "https://github.com/SabrinaZ8/furniture-project"
@@ -14,7 +14,7 @@
     "descricao": "Este projeto é uma aplicação web que permite buscar livros de forma simples e rápida usando a Open Library API. Com ele, você pode digitar o nome de um livro, autor ou categoria, e visualizar informações como título, autor e capa do livro.",
     "media": {
       "tipo": "video",
-      "src": "/portfolio/src/video-projeto-books.webm"
+      "src": "/portfolio/assets/file-projects/video-projeto-books.webm"
     },
     "demo": "https://books-project-beige.vercel.app/",
     "github": "https://github.com/SabrinaZ8/books-project"
@@ -24,7 +24,7 @@
     "descricao": "Projeto do Front-end Mentor para aprimorar habilidades de desenvolvimento web com designer responsivo. HTML, CSS, Javascript.",
     "media": {
       "tipo": "imagem",
-      "src": "/portfolio/src/manage-landing-page.webp",
+      "src": "/portfolio/assets/file-projects/manage-landing-page.webp",
       "alt": "Projeto Landing Page Master"
     },
     "demo": "https://manage-landing-page-master-gules.vercel.app/",
@@ -35,7 +35,7 @@
     "descricao": "Este é um projeto do Front-end Mentor que envolve a criação de uma calculadora com três temas visuais diferentes. O projeto começa com o desenvolvimento da lógica básica de uma calculadora, garantindo que todas as operações matemáticas funcionem corretamente. Com HTML, CSS E JavaScript.",
     "media": {
       "tipo": "imagem",
-      "src": "/portfolio/src/calculator-app.webp",
+      "src": "/portfolio/assets/file-projects/calculator-app.webp",
       "alt": "Projeto Calculadora"
     },
     "demo": "https://calculadora-app-lac.vercel.app/",
@@ -46,7 +46,7 @@
     "descricao": "Projeto do Front-end Mentor. Este projeto envolve a criação de componentes de interface como barras de chat, caixas de mensagem e elementos de perfil de usuário. HTML e CSS.",
     "media": {
       "tipo": "imagem",
-      "src": "/portfolio/src/chat-app.webp",
+      "src": "/portfolio/assets/file-projects/chat-app.webp",
       "alt": "Projeto Chat App"
     },
     "demo": "https://chat-app-landing-page-omega.vercel.app/",
@@ -57,7 +57,7 @@
     "descricao": "Projeto do Front-end Mentor. Este projeto envolve a criação de uma interface que inclui elementos como listas de ingredientes, instruções de preparo e imagens de pratos, garantindo que a página não só tenha uma aparência visual agradável e fiel ao design original.",
     "media": {
       "tipo": "imagem",
-      "src": "/portfolio/src/recipe-page.webp",
+      "src": "/portfolio/assets/file-projects/recipe-page.webp",
       "alt": "Projeto De Pagina de Receitas"
     },
     "demo": "https://landing-page-challenger-nine.vercel.app/",

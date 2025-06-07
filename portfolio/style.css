@@ -21,7 +21,7 @@ html {
 
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background: url('/portfolio/src/background-dark.webp') no-repeat;
+    background: url('/portfolio/assets/background/background-dark.webp') no-repeat;
     background-color: #000000;
     background-size: cover;
     color: #ebe9e9e8;
