@@ -1,7 +1,7 @@
 [
   {
     "titulo": "Furniro E-commerce",
-    "descricao": "Este projeto foi desenvolvido durante meu período de estágio na Compass UOL. A aplicação permite a exibição detalhada dos produtos, além de oferecer filtros por categoria e classificação por preço ou nome. O Redux gerencia o estado global. Para autenticação de usuário, foi implementado o Clerk. Além disso, a integração com ViaCep facilita a busca de endereços, e o JSON-Server é utilizado para simular um back-end durante o desenvolvimento.",
+    "descricao": "Este projeto foi realizado durante meu período de estágio na Compass UOL. A aplicação desenvolvida com React permite a exibição detalhada dos produtos, além de oferecer filtros por categoria e classificação por preço ou nome. O Redux gerencia o estado global. Para autenticação de usuário, foi implementado o Clerk. Além disso, a integração com ViaCep facilita a busca de endereços, e o JSON-Server é utilizado para simular um back-end.",
     "media": {
       "tipo": "video",
       "src": "/portfolio/assets/file-projects/video-furniro.webm"
@@ -16,7 +16,7 @@
   },
   {
     "titulo": "Buscador Literário",
-    "descricao": "Este projeto é uma aplicação web que permite buscar livros de forma simples e rápida usando a Open Library API. Com ele, você pode digitar o nome de um livro, autor ou categoria, e visualizar informações como título, autor e capa do livro.",
+    "descricao": "Este projeto é uma aplicação web desenvolvida com React, que permite buscar livros de forma simples e rápida utilizando a Open Library API. O usuário pode digitar o nome de um livro, autor ou categoria para visualizar resultados com título, autor e capa dos livros. A aplicação utiliza React Router para navegação entre páginas, e estilização responsiva com Tailwind CSS.",
     "media": {
       "tipo": "video",
       "src": "/portfolio/assets/file-projects/video-projeto-books.webm"
@@ -31,7 +31,7 @@
   },
   {
     "titulo": "Página de gereciamento",
-    "descricao": "Projeto do Front-end Mentor para aprimorar habilidades de desenvolvimento web com designer responsivo. HTML, CSS, Javascript.",
+    "descricao": "Projeto desenvolvido com o objetivo de aprimorar habilidades em desenvolvimento web. Inspirado no desafio Manage landing page da plataforma Frontend Mentor. Este projeto simula a landing page de uma ferramenta de gerenciamento de equipes.",
     "media": {
       "tipo": "imagem",
       "src": "/portfolio/assets/file-projects/manage-landing-page.webp",
@@ -47,7 +47,7 @@
   },
   {
     "titulo": "Calculadora",
-    "descricao": "Este é um projeto do Front-end Mentor que envolve a criação de uma calculadora com três temas visuais diferentes. O projeto começa com o desenvolvimento da lógica básica de uma calculadora, garantindo que todas as operações matemáticas funcionem corretamente. Com HTML, CSS E JavaScript.",
+    "descricao": "Este é um projeto do Frontend Mentor que envolve a criação de uma calculadora com três temas visuais diferentes. O projeto começa com o desenvolvimento da lógica básica de uma calculadora, garantindo que todas as operações matemáticas funcionem corretamente.",
     "media": {
       "tipo": "imagem",
       "src": "/portfolio/assets/file-projects/calculator-app.webp",
@@ -63,7 +63,7 @@
   },
   {
     "titulo": "Chat App",
-    "descricao": "Projeto do Front-end Mentor. Este projeto envolve a criação de componentes de interface como barras de chat, caixas de mensagem e elementos de perfil de usuário. HTML e CSS.",
+    "descricao": "Projeto do Frontend Mentor. Este projeto envolve a criação de componentes de interface como barras de chat, caixas de mensagem e elementos de perfil de usuário.",
     "media": {
       "tipo": "imagem",
       "src": "/portfolio/assets/file-projects/chat-app.webp",
@@ -71,15 +71,14 @@
     },
     "technologies":[
       "html",
-      "css",
-      "javascript"
+      "css"
     ],
     "demo": "https://chat-app-landing-page-omega.vercel.app/",
     "github": "https://github.com/SabrinaZ8/Chat-app-LandingPage"
   },
   {
     "titulo": "Página de receita",
-    "descricao": "Projeto do Front-end Mentor. Este projeto envolve a criação de uma interface que inclui elementos como listas de ingredientes, instruções de preparo e imagens de pratos, garantindo que a página não só tenha uma aparência visual agradável e fiel ao design original.",
+    "descricao": "Projeto do Frontend Mentor. Este projeto envolve a criação de uma interface que inclui elementos como listas de ingredientes, instruções de preparo e imagens de pratos, garantindo que a página tenha uma aparência visual agradável e fiel ao design original.",
     "media": {
       "tipo": "imagem",
       "src": "/portfolio/assets/file-projects/recipe-page.webp",
@@ -87,8 +86,7 @@
     },
     "technologies":[
       "html",
-      "css",
-      "javascript"
+      "css"
     ],
     "demo": "https://landing-page-challenger-nine.vercel.app/",
     "github": "https://github.com/BynnZ8/LandingPage_Challenger"
