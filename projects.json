@@ -8,7 +8,7 @@
     },
     "technologies":[
       "react",
-      "typeScript",
+      "typescript",
       "tailwind"
     ],
     "demo": "https://furniture-project-two.vercel.app/",
@@ -23,7 +23,7 @@
     },
     "technologies":[
       "react",
-      "typeScript",
+      "typescript",
       "tailwind"
     ],
     "demo": "https://books-project-beige.vercel.app/",
