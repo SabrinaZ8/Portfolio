@@ -352,7 +352,7 @@ li a:hover {
     .projetos-div {
         width: 90%;
     } 
-    .projetos-div img, .projetos-div video {
+    .projetos-div > img, .projetos-div video {
         width: 190px;
         height: 106px;
         margin: 0 15px 15px 0;
