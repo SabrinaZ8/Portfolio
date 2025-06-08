@@ -1,7 +1,7 @@
 [
   {
     "titulo": "Furniro E-commerce",
-    "descricao": "Este projeto foi desenvolvido durante meu período de estágio na Compass UOL, utilizando React, TypeScript e Tailwind CSS para criar uma interface moderna e responsiva. A aplicação permite a exibição detalhada dos produtos, além de oferecer filtros por categoria e classificação por preço ou nome. O Redux gerencia o estado global. Para autenticação de usuário, foi implementado o Clerk. Além disso, a integração com ViaCep facilita a busca de endereços, e o JSON-Server é utilizado para simular um back-end durante o desenvolvimento.",
+    "descricao": "Este projeto foi desenvolvido durante meu período de estágio na Compass UOL. A aplicação permite a exibição detalhada dos produtos, além de oferecer filtros por categoria e classificação por preço ou nome. O Redux gerencia o estado global. Para autenticação de usuário, foi implementado o Clerk. Além disso, a integração com ViaCep facilita a busca de endereços, e o JSON-Server é utilizado para simular um back-end durante o desenvolvimento.",
     "media": {
       "tipo": "video",
       "src": "/portfolio/assets/file-projects/video-furniro.webm"
