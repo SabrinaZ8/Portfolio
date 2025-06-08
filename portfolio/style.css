@@ -227,6 +227,19 @@ video {
 .projetos-div  *:not(:last-child) a {
     color: rgb(149, 166, 241);
 }
+.tech-icons {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tech-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 /********habilidades*********/
 #habilidades {
     background-color: #2b2f4196;

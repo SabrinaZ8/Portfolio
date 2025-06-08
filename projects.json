@@ -6,6 +6,11 @@
       "tipo": "video",
       "src": "/portfolio/assets/file-projects/video-furniro.webm"
     },
+    "technologies":[
+      "react",
+      "typeScript",
+      "tailwind"
+    ],
     "demo": "https://furniture-project-two.vercel.app/",
     "github": "https://github.com/SabrinaZ8/furniture-project"
   },
@@ -16,6 +21,11 @@
       "tipo": "video",
       "src": "/portfolio/assets/file-projects/video-projeto-books.webm"
     },
+    "technologies":[
+      "react",
+      "typeScript",
+      "tailwind"
+    ],
     "demo": "https://books-project-beige.vercel.app/",
     "github": "https://github.com/SabrinaZ8/books-project"
   },
@@ -27,6 +37,11 @@
       "src": "/portfolio/assets/file-projects/manage-landing-page.webp",
       "alt": "Projeto Landing Page Master"
     },
+    "technologies":[
+      "html",
+      "css",
+      "javascript"
+    ],
     "demo": "https://manage-landing-page-master-gules.vercel.app/",
     "github": "https://github.com/BynnZ8/manage-landing-page-master"
   },
@@ -38,6 +53,11 @@
       "src": "/portfolio/assets/file-projects/calculator-app.webp",
       "alt": "Projeto Calculadora"
     },
+    "technologies":[
+      "html",
+      "css",
+      "javascript"
+    ],
     "demo": "https://calculadora-app-lac.vercel.app/",
     "github": "https://github.com/BynnZ8/calculadora-app"
   },
@@ -49,6 +69,11 @@
       "src": "/portfolio/assets/file-projects/chat-app.webp",
       "alt": "Projeto Chat App"
     },
+    "technologies":[
+      "html",
+      "css",
+      "javascript"
+    ],
     "demo": "https://chat-app-landing-page-omega.vercel.app/",
     "github": "https://github.com/SabrinaZ8/Chat-app-LandingPage"
   },
@@ -60,6 +85,11 @@
       "src": "/portfolio/assets/file-projects/recipe-page.webp",
       "alt": "Projeto De Pagina de Receitas"
     },
+    "technologies":[
+      "html",
+      "css",
+      "javascript"
+    ],
     "demo": "https://landing-page-challenger-nine.vercel.app/",
     "github": "https://github.com/BynnZ8/LandingPage_Challenger"
   }

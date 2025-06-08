@@ -4,6 +4,8 @@ fetch('/projects.json')
   .then(res => res.json())
   .then(projetos => {
     projetos.forEach(proj => {
+      const techIcons = proj.technologies.map((tech) => `<img src="/portfolio/assets/technologies/${tech}.png" alt="${tech}" class="tech-icon">`).join('');
+
       const projetoDiv = document.createElement('div');
       projetoDiv.className = 'projetos-div hidden';
       projetoDiv.innerHTML = `
@@ -15,6 +17,7 @@ fetch('/projects.json')
           <h3>${proj.titulo}</h3>
           <p>${proj.descricao}</p>
         </div>
+        <div class="tech-icons">${techIcons}</div>
         <div class="btns-projects">
           <a class="btns btns-links-projects" href="${proj.demo}" target="_blank">Demo</a>
           <a class="btns btns-links-projects" href="${proj.github}" target="_blank">GitHub</a>
