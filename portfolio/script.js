@@ -1,26 +1,36 @@
-const container = document.querySelector('.lista-projetos');
+const container = document.querySelector(".lista-projetos");
 
-fetch('/projects.json')
-  .then(res => res.json())
-  .then(projetos => {
-    projetos.forEach(proj => {
-      const techIcons = proj.technologies.map((tech) => `<img src="/portfolio/assets/technologies/${tech}.png" alt="${tech}" class="tech-icon">`).join('');
+fetch("/projects.json")
+  .then((res) => res.json())
+  .then((projetos) => {
+    projetos.forEach((proj) => {
+      const techIcons = proj.technologies
+        .map(
+          (tech) =>
+            `<img src="/portfolio/assets/technologies/${tech}.png" alt="${tech}" class="tech-icon">`
+        )
+        .join("");
 
-      const projetoDiv = document.createElement('div');
-      projetoDiv.className = 'projetos-div hidden';
+      const projetoDiv = document.createElement("div");
+      projetoDiv.className = "projetos-div hidden";
       projetoDiv.innerHTML = `
         <div class="div-img-p">
-          ${proj.media.tipo === 'video'
-            ? `<video src="${proj.media.src}" loop autoplay muted></video>`
-            : `<img src="${proj.media.src}" alt="${proj.media.alt}">`
+          ${
+            proj.media.tipo === "video"
+              ? `<video src="${proj.media.src}" loop autoplay muted></video>`
+              : `<img src="${proj.media.src}" alt="${proj.media.alt}">`
           }
           <h3>${proj.titulo}</h3>
           <p>${proj.descricao}</p>
         </div>
         <div class="tech-icons">${techIcons}</div>
         <div class="btns-projects">
-          <a class="btns btns-links-projects" href="${proj.demo}" target="_blank">Demo</a>
-          <a class="btns btns-links-projects" href="${proj.github}" target="_blank">GitHub</a>
+          <a class="btns btns-links-projects" href="${
+            proj.demo
+          }" target="_blank">Demo</a>
+          <a class="btns btns-links-projects" href="${
+            proj.github
+          }" target="_blank">GitHub</a>
         </div>
       `;
       container.appendChild(projetoDiv);
@@ -38,7 +48,7 @@ fetch('/projects.json')
       });
     });
 
-    hiddenElements.forEach(el => myObserver.observe(el));
+    hiddenElements.forEach((el) => myObserver.observe(el));
   });
 
 // Responsividade do menu
@@ -57,8 +67,8 @@ const elements = {
     adicionarClasses: function () {
       elements.navHeader.classList.add("nav-cell");
       elements.navList.classList.add("nav-list-cell-ul");
-    }
-  }
+    },
+  },
 };
 
 function verificarLargura() {
@@ -128,13 +138,38 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Adicionando classe de link ativo ao menu
+/* Adicionando classe de link ativo ao menu
 
-const menuLinks = document.querySelectorAll('.nav-list-li');
+const menuLinks = document.querySelectorAll(".nav-list-li");
 
-menuLinks.forEach(item => {
-  item.addEventListener('click', () => {
-    menuLinks.forEach(link => link.classList.remove('active'));
-    item.classList.add('active');
-  })
-  })
+menuLinks.forEach((item) => {
+  item.addEventListener("click", () => {
+    menuLinks.forEach((link) => link.classList.remove("active"));
+    item.classList.add("active");
+  });
+});
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-list-li");
+
+window.addEventListener("scroll", () => {
+  let current = "home";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop - 50;
+    const sectionHeight = section.clientHeight;
+    if (
+      window.scrollY >= sectionTop &&
+      window.scrollY < sectionTop + sectionHeight
+    ) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+    if (link.querySelector("a").getAttribute("href") === `#${current}`) {
+      link.classList.add("active");
+      console.log("Link ativo:", link);
+    }
+  });
+});*/
