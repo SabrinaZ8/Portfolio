@@ -46,10 +46,13 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 ## 🗂️| Projetos 
 
-- [Página de gerenciamento](https://github.com/BynnZ8/manage-landing-page-master)
-- [Calculadora](https://github.com/BynnZ8/calculadora-app)
-- [Chat App](https://github.com/BynnZ8/Chat-app-LandingPage)
-- [Página de receita](https://github.com/BynnZ8/LandingPage_Challenger)
+- [Furniture Project](https://github.com/SabrinaZ8/furniture-project.git)
+- [Books Project](https://github.com/SabrinaZ8/books-project.git)
+- [Calculadora](https://github.com/SabrinaZ8/calculadora-app)
+- [Página de gerenciamento](https://github.com/SabrinaZ8/manage-landing-page-master)
+- [Calculadora](https://github.com/SabrinaZ8/calculadora-app)
+- [Chat App](https://github.com/SabrinaZ8/Chat-app-LandingPage)
+- [Página de receita](https://github.com/SabrinaZ8/LandingPage_Challenger)
 
 
 ## 🔗| Links
