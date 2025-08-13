@@ -14,10 +14,6 @@ Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos
 - [Links](#-links)
 - [Contato](#-contato)
 
-## 🔎| Preview
-
-![Preview](/portfolio/src/capturaPortfolio.webp)
-
 ## 📌| Descrição do Portfólio
 
 ### 1. Estética Visual
