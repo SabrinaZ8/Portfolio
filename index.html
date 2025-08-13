@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Sabrina Souza, desenvolvedora front-end com experiência em React, TypeScripte Tailwind. Confira meus projetos e habilidades técnicas.">
-    <meta name="keywords" content="portfólio, Sabrina Souza, desenvolvedora, Projetos, front-end, React, Tailwind CSS, TypeScript, AWS, desenvolvimento web, tecnologia, projetos de software">
+    <meta name="description"
+        content="Portfólio de Sabrina Souza, desenvolvedora front-end com experiência em React, TypeScripte Tailwind. Confira meus projetos e habilidades técnicas.">
+    <meta name="keywords"
+        content="portfólio, Sabrina Souza, desenvolvedora, Projetos, front-end, React, Tailwind CSS, TypeScript, AWS, desenvolvimento web, tecnologia, projetos de software">
     <meta name="author" content="Sabrina Souza">
     <link rel="icon" type="image/svg" sizes="32x32" href="/portfolio/assets/logo/logo.svg">
     <link rel="stylesheet" href="/portfolio/style.css">
     <title>Sabrina Souza</title>
 </head>
+
 <body>
     <div id="home"></div>
     <header id="header">
-       
+
         <button type="button" class="icon-menu" id="modo-escuro" style="display: none;">
             <img src="/portfolio/assets/icons/btns-icons/menu-modoescuro.png" alt="menu" onclick="ativarMenu()">
         </button>
-         <!--<i class="icon-menu" id="modo-claro" style="display: none;">
-            <img src="/portfolio/assets/icons/btns-icons/menu-modoclaro.png" alt="menu" onclick="ativarMenu()" >
-        </i>-->
         <div class="logo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 512 512"><path fill="rgb(238, 105, 238)" d="M160 389a20.9 20.9 0 0 1-13.82-5.2l-128-112a21 21 0 0 1 0-31.6l128-112a21 21 0 0 1 27.66 31.61L63.89 256l109.94 96.19A21 21 0 0 1 160 389m192 0a21 21 0 0 1-13.84-36.81L448.11 256l-109.94-96.19a21 21 0 0 1 27.66-31.61l128 112a21 21 0 0 1 0 31.6l-128 112A20.9 20.9 0 0 1 352 389m-144 48a21 21 0 0 1-20.12-27l96-320a21 21 0 1 1 40.23 12l-96 320A21 21 0 0 1 208 437"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 512 512">
+                <path fill="rgb(238, 105, 238)"
+                    d="M160 389a20.9 20.9 0 0 1-13.82-5.2l-128-112a21 21 0 0 1 0-31.6l128-112a21 21 0 0 1 27.66 31.61L63.89 256l109.94 96.19A21 21 0 0 1 160 389m192 0a21 21 0 0 1-13.84-36.81L448.11 256l-109.94-96.19a21 21 0 0 1 27.66-31.61l128 112a21 21 0 0 1 0 31.6l-128 112A20.9 20.9 0 0 1 352 389m-144 48a21 21 0 0 1-20.12-27l96-320a21 21 0 1 1 40.23 12l-96 320A21 21 0 0 1 208 437" />
+            </svg>
             <span>SS</span>
         </div>
         <nav>
@@ -36,10 +40,6 @@
                 <li class="nav-list-li"><a href="#contato" onclick="fecharNavAut()">Contato</a></li>
             </ul>
         </nav>
-        
-        <!--<svg width="30" height="30" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="ativarModo()">
-            <path d="M22.3958 1.5625C22.3958 0.699563 21.6962 0 20.8333 0C19.9704 0 19.2708 0.699563 19.2708 1.5625V4.6875C19.2708 5.55044 19.9704 6.25 20.8333 6.25C21.6962 6.25 22.3958 5.55044 22.3958 4.6875V1.5625ZM31.25 20.8333C31.25 26.5863 26.5862 31.25 20.8333 31.25C15.0804 31.25 10.4167 26.5863 10.4167 20.8333C10.4167 15.0804 15.0804 10.4167 20.8333 10.4167C26.5862 10.4167 31.25 15.0804 31.25 20.8333ZM28.125 20.8333C28.125 16.8063 24.8604 13.5417 20.8333 13.5417V28.125C24.8604 28.125 28.125 24.8604 28.125 20.8333ZM41.6667 20.8333C41.6667 21.6963 40.9671 22.3958 40.1042 22.3958H36.9792C36.1162 22.3958 35.4167 21.6963 35.4167 20.8333C35.4167 19.9704 36.1162 19.2708 36.9792 19.2708H40.1042C40.9671 19.2708 41.6667 19.9704 41.6667 20.8333ZM22.3958 36.9792C22.3958 36.1163 21.6962 35.4167 20.8333 35.4167C19.9704 35.4167 19.2708 36.1163 19.2708 36.9792V40.1042C19.2708 40.9671 19.9704 41.6667 20.8333 41.6667C21.6962 41.6667 22.3958 40.9671 22.3958 40.1042V36.9792ZM6.25 20.8333C6.25 21.6963 5.55044 22.3958 4.6875 22.3958H1.5625C0.699562 22.3958 0 21.6963 0 20.8333C0 19.9704 0.699562 19.2708 1.5625 19.2708H4.6875C5.55044 19.2708 6.25 19.9704 6.25 20.8333ZM6.83402 4.62508C6.22383 4.01487 5.2345 4.01487 4.62431 4.62508C4.01412 5.23527 4.01412 6.22458 4.62431 6.83479L7.74931 9.95979C8.3595 10.57 9.34883 10.57 9.95902 9.95979C10.5692 9.34958 10.5692 8.36027 9.95902 7.75008L6.83402 4.62508ZM4.62431 37.0431C5.2345 37.6533 6.22383 37.6533 6.83402 37.0431L9.95902 33.9181C10.5692 33.3079 10.5692 32.3185 9.95902 31.7083C9.34883 31.0981 8.3595 31.0981 7.74931 31.7083L4.62431 34.8333C4.01412 35.4435 4.01412 36.4329 4.62431 37.0431ZM34.8327 4.62508C35.4429 4.01487 36.4321 4.01487 37.0423 4.62508C37.6525 5.23527 37.6525 6.22458 37.0423 6.83479L33.9173 9.95979C33.3071 10.57 32.3179 10.57 31.7077 9.95979C31.0975 9.34958 31.0975 8.36027 31.7077 7.75008L34.8327 4.62508ZM37.0423 37.0431C36.4321 37.6533 35.4429 37.6533 34.8327 37.0431L31.7077 33.9181C31.0975 33.3079 31.0975 32.3185 31.7077 31.7083C32.3179 31.0981 33.3071 31.0981 33.9173 31.7083L37.0423 34.8333C37.6525 35.4435 37.6525 36.4329 37.0423 37.0431Z" fill="rgba(151, 151, 151, 0.300)"/>
-        </svg>-->
     </header>
     <main>
         <section id="inicio">
@@ -51,79 +51,90 @@
                         Desenvolvedora Front-end.</h1>
                 </noscript>
                 <p>
-                    Explore meus projetos e sinta-se à vontade para entrar em contato para<br> colaborações e oportunidades de aprendizado!
+                    Explore meus projetos e sinta-se à vontade para entrar em contato para<br> colaborações e
+                    oportunidades de aprendizado!
                 </p>
                 <div>
-                    <a href="https://github.com/SabrinaZ8" id="btn-github" class="btns btn-inicio" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/sabrina-souza-b74137238/" id="btn-linkedin" class="btns btn-inicio" target="_blank">LinkedIn</a>
-                    <a href="https://drive.google.com/file/d/1PlWs73aIIQR43fRltpEzzFCrWKe9Kalc/view?usp=drive_link" id="btn-cv" class="btns btn-inicio" target="_blank">Download CV</a>
+                    <a href="https://github.com/SabrinaZ8" id="btn-github" class="btns btn-inicio"
+                        target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sabrina-souza-b74137238/" id="btn-linkedin"
+                        class="btns btn-inicio" target="_blank">LinkedIn</a>
+                    <a href="https://drive.google.com/file/d/1PlWs73aIIQR43fRltpEzzFCrWKe9Kalc/view?usp=drive_link"
+                        id="btn-cv" class="btns btn-inicio" target="_blank">Download CV</a>
                 </div>
             </div>
             <div class="foto">
                 <img src="/portfolio/assets/images/foto-sabrina-souza.webp" alt="Foto de Sabrina Souza">
             </div>
-    </section>
-    <section class="sobre-mim" id="sobre-mim">
-        <div class="border">
-            <div class="content-sobremim">
-                <h2 class="h2-title hidden">
-                    Sobre Mim
-                </h2>
-                <p class="hidden"><img src="/portfolio/assets/images/white-cat.webp" alt="PNG de um gatinho fofo" style="float: right; width: 150px;height: auto;" class="gato hidden">
-                    Olá! Meu nome é Sabrina Souza e sou estudante de Análise e Desenvolvimento de Sistemas na Uniasselvi. Atualmente, estou focada no desenvolvimento front-end, onde expresso minha paixão por criar interfaces de usuário elegantes e funcionais.
-                    Tenho conhecimento em HTML, CSS, JavaScript, React, Tailwind e TypeScript, que utilizo para construir websites e aplicações web dinâmicas. Além disso, possuo uma base em SQL, o que me permite entender e manipular dados de maneira eficiente.
-                    Sou natural do Pará e tenho um amor profundo pela tecnologia da informação. Estou sempre em busca de novos conhecimentos e desafios que aprimorem minhas habilidades e expandam meus horizontes na área.
-                </p>
+        </section>
+        <section class="sobre-mim" id="sobre-mim">
+            <div class="border">
+                <div class="content-sobremim">
+                    <h2 class="h2-title hidden">
+                        Sobre Mim
+                    </h2>
+                    <p class="hidden"><img src="/portfolio/assets/images/white-cat.webp" alt="PNG de um gatinho fofo"
+                            style="float: right; width: 150px;height: auto;" class="gato hidden">
+                        Olá! Meu nome é Sabrina Souza e sou estudante de Análise e Desenvolvimento de Sistemas na
+                        Uniasselvi. Atualmente, estou focada no desenvolvimento front-end, onde expresso minha paixão
+                        por criar interfaces de usuário elegantes e funcionais.
+                        Tenho conhecimento em HTML, CSS, JavaScript, React, Tailwind e TypeScript, que utilizo para
+                        construir websites e aplicações web dinâmicas. Além disso, possuo uma base em SQL, o que me
+                        permite entender e manipular dados de maneira eficiente.
+                        Sou natural do Pará e tenho um amor profundo pela tecnologia da informação. Estou sempre em
+                        busca de novos conhecimentos e desafios que aprimorem minhas habilidades e expandam meus
+                        horizontes na área.
+                    </p>
+                </div>
             </div>
-        </div>
-    </section>
-    
-    <section class="section-projetos" id="projetos">
-        <div>
-            <h2 class="h2-title hidden">Projetos</h2>
-        </div>
-        <div class="lista-projetos">
-        </div>
-    </section>
-    <section class="habilidades" id="habilidades">
-        <div>
-            <h2 class="h2-title">Habilidades</h2>
-        </div>
-        <div class="icons-habilidades">
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/html.png" alt="HTML">
-                <span>HTML</span>
+        </section>
+
+        <section class="section-projetos" id="projetos">
+            <div>
+                <h2 class="h2-title hidden">Projetos</h2>
             </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/css.png" alt="CSS">
-                <span>CSS</span>
+            <div class="lista-projetos">
             </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/javascript.png" alt="JavaScript">
-                <span>JavaScript</span>
+        </section>
+        <section class="habilidades" id="habilidades">
+            <div>
+                <h2 class="h2-title">Habilidades</h2>
             </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/react.png" alt="React">
-                <span>React</span>
+            <div class="icons-habilidades">
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/html.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/css.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/javascript.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/react.png" alt="React">
+                    <span>React</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/typescript.png" alt="TypeScript">
+                    <span>TypeScript</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/tailwind.png" alt="Tailwind CSS">
+                    <span>Tailwind CSS</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/git.png" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="svg-icon-div">
+                    <img src="/portfolio/assets/technologies/github.png" alt="GitHub">
+                    <span>GitHub</span>
+                </div>
             </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/typescript.png" alt="TypeScript">
-                <span>TypeScript</span>
-            </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/tailwind.png" alt="Tailwind CSS">
-                <span>Tailwind CSS</span>
-            </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/git.png" alt="Git">
-                <span>Git</span>
-            </div>
-            <div class="svg-icon-div">
-                <img src="/portfolio/assets/technologies/github.png" alt="GitHub">
-                <span>GitHub</span>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
     <footer id="contato">
         <div class="div-list-footer">
@@ -135,10 +146,14 @@
             </ul>
         </div>
         <div class="icons">
-            <a href="https://www.linkedin.com/in/sabrina-souza-dev/" target="_blank"><img src="/portfolio/assets/icons/social-media/icon-linkedin.svg" alt="Icon LinkedIn"></a>
-            <a href="https://github.com/SabrinaZ8" target="_blank"><img src="/portfolio/assets/icons/social-media/icon-github.svg" alt="Icon Github"></a>
-            <a href="https://wa.me/5594991121520" target="_blank"><img src="/portfolio/assets/icons/social-media/icon-whatsapp.svg" alt="Icon Whatsapp"></a>
-            <a href="mailto:sabrinasouza.dev@gmail.com"><img src="/portfolio/assets/icons/social-media/email-mail-svgrepo-com.svg" alt="Email"></a>
+            <a href="https://www.linkedin.com/in/sabrina-souza-dev/" target="_blank"><img
+                    src="/portfolio/assets/icons/social-media/icon-linkedin.svg" alt="Icon LinkedIn"></a>
+            <a href="https://github.com/SabrinaZ8" target="_blank"><img
+                    src="/portfolio/assets/icons/social-media/icon-github.svg" alt="Icon Github"></a>
+            <a href="https://wa.me/5594991121520" target="_blank"><img
+                    src="/portfolio/assets/icons/social-media/icon-whatsapp.svg" alt="Icon Whatsapp"></a>
+            <a href="mailto:sabrinasouza.dev@gmail.com"><img
+                    src="/portfolio/assets/icons/social-media/email-mail-svgrepo-com.svg" alt="Email"></a>
         </div>
         <div class="copy">
             <p>© 2024 Sabrina Souza. Todos os direitos reservados.</p>
@@ -146,4 +161,5 @@
     </footer>
     <script src="./portfolio/script.js"></script>
 </body>
+
 </html>
