@@ -110,6 +110,9 @@ body {
     transform: translate(0%);
     transition: all 1.7s;
 }
+.active a{
+    color: var(--colorpink);
+}
 /************************** inicio ***************************************/
 #inicio {
     display: flex;
@@ -298,7 +301,7 @@ footer {
 }
 
 li a:hover {
-    color: var(--colorpink);
+    color: var(--colorcyan);
 }
 .btns-links-projects:hover {
     background-color: rgb(209, 255, 218);

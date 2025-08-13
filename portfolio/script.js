@@ -127,3 +127,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+// Adicionando classe de link ativo ao menu
+
+const menuLinks = document.querySelectorAll('.nav-list-li');
+
+menuLinks.forEach(item => {
+  item.addEventListener('click', () => {
+    menuLinks.forEach(link => link.classList.remove('active'));
+    item.classList.add('active');
+  })
+  })
