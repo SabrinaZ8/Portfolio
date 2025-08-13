@@ -48,7 +48,6 @@ A página é responsiva, adaptando-se a diferentes tipos de tela. Usei media que
 
 - [Furniture Project](https://github.com/SabrinaZ8/furniture-project.git)
 - [Books Project](https://github.com/SabrinaZ8/books-project.git)
-- [Calculadora](https://github.com/SabrinaZ8/calculadora-app)
 - [Página de gerenciamento](https://github.com/SabrinaZ8/manage-landing-page-master)
 - [Calculadora](https://github.com/SabrinaZ8/calculadora-app)
 - [Chat App](https://github.com/SabrinaZ8/Chat-app-LandingPage)
